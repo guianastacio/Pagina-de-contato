@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    margin: 0;
+        display: inline-block;
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif;
+}
+
+.Contato{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #D1B521, #887204, white);
+    background-size: 300% 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left-contato{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Left-contato > img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.Right-contato{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-contato{
+    width: 87%;
+    height: 83% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 45px;
+    background: white;
+    border-radius: 20px;
+    /* box-shadow: 0px 10px 40px whitesmoke; */
+}
+
+.Card-contato > h1{
+    color: black;
+        font-family: 'Montserrat', sans-serif;
+       font-size: 25px;
+       margin-top: 20px;
+}
+
+.Textfield{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.Textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: whitesmoke;
+    border: solid;
+    border-color: black;
+    color: black;
+    font-size: 12pt;
+    /* box-shadow: 0px 10px 40px whitesmoke; */
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Textfield > textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: whitesmoke;
+    border: solid;
+    border-color: black;
+    color: black;
+    font-size: 12pt;
+    /* box-shadow: 0px 10px 40px whitesmoke; */
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Textfield > label{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btn-contato{
+    width: 25%;
+    padding: 16px 0px;
+    border: solid;
+    border-color: #D1B521;
+    color: white;
+    background-color: #D1B521;
+    margin: 25px;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    
+}
